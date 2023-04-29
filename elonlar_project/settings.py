@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'elonlar_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'elondb',
+        'NAME': 'elonserverdb',
         'USER': 'elon_user',
         'PASSWORD': '123456',
         'HOST': 'localhost',
