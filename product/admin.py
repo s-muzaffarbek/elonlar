@@ -7,6 +7,4 @@ from product.models import Product
 class ProductAdmin(TranslationAdmin):
     pass
 
-
-
 admin.site.register(Product, ProductAdmin)
