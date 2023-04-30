@@ -9,5 +9,8 @@ class AddressViewSet(ModelViewSet):
     queryset = Address.objects.all()
     serializer_class = AddressSerializer
 
+from django.template.response import TemplateResponse
+def home():
+    return TemplateResponse('index.html')
 
 
