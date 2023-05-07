@@ -13,3 +13,9 @@ class ProductTranslationOptions(TranslationOptions):
     fields = ('name', 'description')
 
 translator.register(Product, DistrictTranslationOptions)
+
+class CategoryTranslationOptions(TranslationOptions):
+    model = Category
+    fields = ('name',)
+
+translator.register(Category, DistrictTranslationOptions)

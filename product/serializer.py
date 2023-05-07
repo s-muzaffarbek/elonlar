@@ -20,3 +20,9 @@ class ProductSerializer(serializers.ModelSerializer):
         # model = Post
         fields = ['title', 'about']
 
+
+class CategorySerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Category
+        fields = '__all__'
